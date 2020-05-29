@@ -1,0 +1,92 @@
+:root{
+    --main-g: #2D882D;
+    --main-g2: #a1e7d0;
+    --main-b: #209cee;
+    --main-p: #9b4594;
+}
+
+.is-main{
+    background-color: var(--main-g);
+    color: white;
+}
+
+.is-main .title{
+    color: var(--main-p);
+}
+
+.is-main .subtitle{
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.is-main .content{
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.hero-body{
+    background-color: var(--main-g);
+    background-image: url("https://wallpaperaccess.com/full/1907533.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#slideshow{
+    background-position: center;
+}
+
+.tile.is-main{
+    background-color: var(--main-g2);
+}
+
+.tile.is-main .content strong{
+    color: var(--main-p);
+}
+
+.sub-title{
+    color: var(--main-b);
+    font-weight: bold;
+}
+
+.hero .navbar{
+    background-color: var(--main-g2);
+}
+
+.navbar-menu .navbar-item{
+    font-weight: bold;
+}
+
+.navbar-menu .navbar-item:hover{
+    background-color: var(--main-p);
+    color: white;
+}
+
+.navbar-link{
+    color: var(--main-b);
+}
+
+.navbar-item.has-dropdown.is-hoverable .navbar-link:hover{
+    background-color: var(--main-p);
+}
+
+.navbar-item.has-dropdown.is-hoverable .navbar-item{
+    background-color: var(--main-p);
+    color: white;
+}
+
+.navbar-item.has-dropdown.is-hoverable .navbar-item:hover{
+    background-color: var(--main-b);
+    color: white;
+}
+
+.navbar-dropdown{
+    background-color: var(--main-p);
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box .subtitle{
+    color: white;
+}
